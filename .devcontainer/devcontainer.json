@@ -5,6 +5,7 @@
   "features": {
     "ghcr.io/devcontainers/features/node:1": {}
   },
+  "postCreateCommand": "pnpm install",
   "customizations": {
     "vscode": {
       "extensions": [
